@@ -1,0 +1,188 @@
+body, html {
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    word-break: break-word;
+
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    background-color: #eee;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .container-small {
+        width: 530px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .container-small {
+        width: 700px;
+    }
+
+    .container {
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    p {
+        font-size: 1.8rem !important;
+        line-height: 2.4rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    h1 {
+        font-size: 4rem !important;
+        line-height: 4.8rem !important;
+        margin-bottom: 2rem !important;
+        font-weight: 700 !important;
+    }
+
+    h3 {
+        font-size: 3.2rem !important;
+        line-height: 3.8rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 2.4rem !important;
+        font-weight: 700 !important;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container-small {
+        width: 700px;
+    }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container-small {
+        width: 1000px !important;
+        margin: 0 auto;
+    }
+}
+
+h1 {
+    font-size: 3.2rem !important;
+    line-height: 3.8rem !important;
+    margin-bottom: 2rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 2.2rem !important;
+    color: gray;
+}
+
+h3 {
+    font-size: 2.6rem !important;
+    line-height: 3rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2.4rem !important;
+    font-weight: 700 !important;
+}
+
+p {
+    font-size: 1.8rem !important;
+    line-height: 2.4rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.container {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
+
+.container-small {
+    max-width: 100%;
+}
+
+.promo-box {
+    border: 1px solid #ddd;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.promo-box h4 {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+}
+
+.promo-box img {
+    width: 100%;
+    padding: 1.9rem;
+}
+
+.promo-box img.cta-img {
+    border-radius: 40px;
+    max-width: 250px;
+}
+
+.promo-box small {
+    font-size: 1.4rem;
+}
+
+.progress {
+    height: 2rem;
+}
+
+.progress-bar-animated {
+    -webkit-animation: 0.2s linear infinite progress-bar-stripes !important;
+    animation: 0.2s linear infinite progress-bar-stripes !important;
+    background-color: #38ca3f !important;
+}
+
+.figure img {
+
+    object-fit: cover;
+}
+
+.disclaimer {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+.disclaimer p {
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
+    color: #555 !important;
+    font-style: italic !important;
+    margin-bottom: 0 !important;
+}
+
+.disclaimer a {
+    font-weight: 400 !important;
+    color: #87b4f6 !important;
+}
+
+.adv-top-head {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: .875rem !important;
+    color: lightgray;
+}
+
+.updated p {
+    color: #333 !important;
+    font-family: "Open Sans", Sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
